@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="login.js"></script>
 </head>
 <body>
     <h1 align="center">LOGIN PAGE</h1>
    <fieldset>
     <form align="left">
-        <b><label align="left">Username:</label><br>
-        <input type="text" placeholder="Enter"><br>
-        <label align="left">Password:</label><br>
-        <input type="password" placeholder="Enter"><br><br>
-        <input type="submit" value="login"></b><br><br>
+        <b><label align="left" for="username">Username:</label><br>
+        <input type="text" placeholder="Enter" id="user"><br>
+        <label align="left" for="password">Password:</label><br>
+        <input type="password" placeholder="Enter" id="pass"><br><br>
+        <button type="button" onclick="handleLogin()">login</b></button><br><br>
+        <p id="error">Error</p>
         If no account<br>
         <a href="form.html">signin</a>
     </form>
