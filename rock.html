@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rock.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissor</h1>
+        <p>Choose your choice:</p>
+        <button class="btn" onclick="play('Rock')">🪨Rock</button>
+        <button class="btn" onclick="play('Paper')">📃Paper</button>
+        <button class="btn" onclick="play('Scissor')">✂️Scissor</button>
+        <p id="result">result</p>
+        <script>
+            const arr=["Rock","Paper","Scissor"]
+            const computerChoice=arr[Math.floor(Math.random()*arr.length-1)]
+            function play(userChoice){
+                let result=((computerChoice==="Rock"&&userChoice=="Paper")||
+                (computerChoice==="Rock"&&userChoice=="Paper")||
+                (computerChoice==="Rock"&&userChoice=="Paper"))?
+                "You won":"You lose"
+                document.getElementById("Result").textContent=result;
+            }
+        </script>
+    </div>
+</body>
+</html>

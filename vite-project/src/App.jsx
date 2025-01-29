@@ -24,7 +24,7 @@ const App = () => {
             innovation and problem-solving in the fields of electronics, communication, and embedded systems. 
             I am driven by a curiosity to explore cutting-edge technologies and contribute to creating smarter, more efficient solutions for real-world challenges.
           </p>
-          <p>Currently I'm an 19 year old teen pursuing my degree in Sri Krishna College of Engineering and Technology.
+          <p>Currently pursuing my degree in Sri Krishna College of Engineering and Technology.
             Hereby I am Buiding my portfolio.
           </p>
         </section>
@@ -32,18 +32,25 @@ const App = () => {
         <section id="projects" className="section">
           <h2>Projects</h2>
         
-          <div className="project">
-            <h3>Smart Home Automation:</h3>
-            <p>Description of project 1.</p>
-          </div>
-          <div className="project">
-            <h3>Microbial Detection in dairy products:</h3>
-            <p>Description of project 2.</p>
-          </div>
-          <div className="project">
-            <h3>Project 3</h3>
-            <p>Description of project 3.</p>
-          </div>
+            
+                <div class="project_container">
+                    <h2>Automated traffic Surveillance using UAV</h2>
+                    <p class="descrption">The UAV-based traffic surveillance system is an advanced solution designed to monitor and control traffic autonomously without human intervention. The system features a rechargeable UAV equipped with a wireless charging mechanism, enabling it to return to its docking station automatically when battery levels are low, ensuring uninterrupted operation. Compact and agile, the UAV is optimized for urban environments, capable of navigating narrow streets and hovering in congested areas while withstanding diverse weather conditions.</p>
+                </div>
+                <div class="project_container">
+                    <h2>People Counting Using IR Sensor and Embedded Systems</h2>
+                    <p class="descrption">This project utilizes Infrared (IR) sensors and embedded systems to develop a people-counting device. The system detects the entry and exit of individuals by using IR beams and processes the count data in real-time. Applications include automating occupancy tracking in rooms, malls, or offices, and implementing crowd control measures. The embedded system ensures accuracy and low power consumption, making it suitable for smart monitoring systems.</p>
+                </div>
+                <div class="project_container">
+                    <h2>Smart Lock System</h2>
+                    <p class="descrption">This embedded system project features a secure smart lock controlled via a keypad. Users input a password, which the microcontroller (AT89C51) verifies to lock or unlock a mechanism. The system includes an LCD for user feedback, displaying lock status or prompting for the password. It's a practical application of microcontroller interfacing, emphasizing security, ease of use, and real-world embedded solutions.</p>
+                </div>
+                <div class="project_container">
+                    <h2>Smart Home Automation</h2>
+                    <p class="descrption">The Smart Home Automation project focuses on creating a system to control home appliances such as lights, fans, or other devices remotely. Using microcontrollers or Arduino, the system integrates sensors and communication modules (e.g., Bluetooth, Wi-Fi) to enable control via a smartphone or voice commands. This project highlights the growing trend of IoT in making homes energy-efficient, convenient, and futuristic.</p>
+            
+            </div>
+          
         </section>
 
         <section id="contact" className="section">

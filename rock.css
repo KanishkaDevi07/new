@@ -1,0 +1,16 @@
+.container{
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px black;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.btn{
+    padding: 5px 5px;
+    border-radius: 8px;
+    background-color:rgb(255, 127, 180);
+    color: green;
+}
+#result{
+    margin-left: 3px;
+}
